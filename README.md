@@ -4,7 +4,7 @@ I started this project because of the frustrations I used to have trying to find
 
 ## Usage
 
-**Prerequisits:**
+**Prerequisites:**
 - python3.12
 
 **Clone the project:**
