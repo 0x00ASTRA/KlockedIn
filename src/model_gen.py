@@ -8,7 +8,7 @@ descriptions = job_codes_df['description'].tolist()
 codes = job_codes_df['code'].tolist()
 
 # Load pre-trained Sentence-BERT model
-model = SentenceTransformer('all-MiniLM-L12-v1')  # Efficient and accurate for similarity tasks
+model = SentenceTransformer('msmarco-distilbert-dot-v5')  # Efficient and accurate for similarity tasks
 
 # Compute embeddings for each job code description
 descriptions_embeddings = model.encode(descriptions, convert_to_tensor=True)
